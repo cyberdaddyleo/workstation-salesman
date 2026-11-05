@@ -1,0 +1,22 @@
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+
+# Local dependencies and temporary files
+node_modules/
+*.log
+*.tmp
+
+# Credentials and exported personal business data
+.env
+.env.*
+!.env.example
+backups/
+exports/
+市场销售工作台备份-*.json
+*-客户名单-*.csv
+*-合作客户-*.csv
+邮件合并-*.csv
